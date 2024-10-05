@@ -32,10 +32,12 @@ SELECT airport.name FROM airport WHERE elevation_ft = ( SELECT MAX(elevation_ft)
 
 ## Task 8
 SELECT country.name FROM country JOIN airport ON country.iso_country = airport.iso_country WHERE airport.elevation_ft = ( SELECT MAX(elevation_ft) FROM airport );
+
 ![img_11.png](img_11.png)
 
 ## Task 9
 SELECT COUNT(*) FROM game JOIN goal_reached ON game.id = goal_reached.game_id JOIN goal ON goal.id = goal_reached.goal_id WHERE game.screen_name = "Vesa";
+
 ![img_12.png](img_12.png)
 
 ## Task 10
