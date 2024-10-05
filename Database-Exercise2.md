@@ -38,6 +38,7 @@ SELECT co2_consumed FROM game WHERE screen_name = "Ilkka";
 
 ## Task 9
 SELECT co2_budget FROM game LIMIT 1;
+
 ![img_50.png](img_50.png)
 
 ## Task 10
