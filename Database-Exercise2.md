@@ -20,6 +20,7 @@ SELECT name, type FROM airport WHERE iso_country = 'FI' ORDER BY type ASC, name 
 
 ## Task 5
 SELECT name FROM country WHERE name LIKE "F%";
+
 ![img_46.png](img_46.png)
 
 ## Task 6
