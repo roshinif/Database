@@ -29,6 +29,7 @@ SELECT name FROM country WHERE name LIKE "%F%";
 
 ## Task 7
 SELECT location FROM game WHERE screen_name = "Vesa";
+
 ![img_48.png](img_48.png)
 
 ## Task 8
